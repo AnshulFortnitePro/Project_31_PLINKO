@@ -55,7 +55,7 @@ function draw() {
   Engine.update(engine);
   background(232, 255, 255 );
   
-  if (frameCount % 90 === 0){
+  if (frameCount % 60 === 0){
     particles.push(new Particle(random(width/2-20, width/2+20), 10, 10));
   }
 
