@@ -11,8 +11,8 @@ class Ground {
     display(){
       var pos =this.body.position;
       rectMode(CENTER);
-      fill("snow");
-      stroke("snow");
+      fill(181, 89, 21);
+      stroke(181, 89, 21);
       rect(pos.x, pos.y, this.width, this.height);
     }
   };
